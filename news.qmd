@@ -1,0 +1,13 @@
+---
+title: News
+listing:
+  contents: news
+  sort: "date desc"
+  image-placeholder: "images/logo.png"
+  type: table
+  categories: true
+  sort-ui: false
+  filter-ui: true
+page-layout: full
+title-block-banner: false
+---

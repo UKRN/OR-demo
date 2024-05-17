@@ -1,0 +1,10 @@
+---
+title: "Demo Quarto Website"
+author: "Lisa DeBruine"
+date: 2024-05-17
+image: images/debruine.jpg
+categories:
+  - website
+---
+
+Today, [Lisa DeBruine](https://debruine.github.io) created a very simple demo website for the living website project, using [quarto](https://quarto.org/).
