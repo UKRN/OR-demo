@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://UKRN.github.io/OR-demo/news/2024-05-17_quarto.html</loc>
-    <lastmod>2024-05-17T11:37:18.449Z</lastmod>
+    <loc>https://UKRN.github.io/OR-demo/projects/management.html</loc>
+    <lastmod>2024-08-07T11:02:15.536Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/evaluation.html</loc>
+    <lastmod>2024-08-07T11:02:15.923Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/training.html</loc>
+    <lastmod>2024-08-07T11:02:16.329Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/sharing.html</loc>
+    <lastmod>2024-08-07T11:02:16.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/recognition.html</loc>
+    <lastmod>2024-08-07T11:02:17.163Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/dei.html</loc>
+    <lastmod>2024-08-07T11:02:17.544Z</lastmod>
   </url>
   <url>
     <loc>https://UKRN.github.io/OR-demo/news.html</loc>
-    <lastmod>2024-05-17T11:30:25.686Z</lastmod>
+    <lastmod>2024-08-07T11:02:18.115Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects.html</loc>
+    <lastmod>2024-08-07T11:02:18.548Z</lastmod>
   </url>
   <url>
     <loc>https://UKRN.github.io/OR-demo/index.html</loc>
-    <lastmod>2024-05-17T11:32:39.656Z</lastmod>
+    <lastmod>2024-08-07T11:02:19.001Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/about.html</loc>
+    <lastmod>2024-08-07T11:02:19.390Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/news/2024-05-17_quarto.html</loc>
+    <lastmod>2024-08-07T11:02:19.924Z</lastmod>
   </url>
 </urlset>

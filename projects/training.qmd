@@ -1,0 +1,9 @@
+---
+order: 1
+title: "Training"
+#image: /images/training.png
+summary: "Enabling UK institutions to improve skills in open research practices"
+oer: https://oercommons.org
+---
+
+Long summary

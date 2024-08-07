@@ -1,23 +1,79 @@
 [
   {
-    "objectID": "news/2024-05-17_quarto.html",
-    "href": "news/2024-05-17_quarto.html",
-    "title": "Demo Quarto Website",
+    "objectID": "projects/management.html",
+    "href": "projects/management.html",
+    "title": "Management & Sustainability",
     "section": "",
-    "text": "Today, Lisa DeBruine created a very simple demo website for the living website project, using quarto."
+    "text": "Long summary"
+  },
+  {
+    "objectID": "projects/evaluation.html",
+    "href": "projects/evaluation.html",
+    "title": "Evaluation",
+    "section": "",
+    "text": "Long summary"
+  },
+  {
+    "objectID": "projects/training.html",
+    "href": "projects/training.html",
+    "title": "Training",
+    "section": "",
+    "text": "Long summary"
+  },
+  {
+    "objectID": "projects/sharing.html",
+    "href": "projects/sharing.html",
+    "title": "Sharing & Integration",
+    "section": "",
+    "text": "Long summary"
+  },
+  {
+    "objectID": "projects/recognition.html",
+    "href": "projects/recognition.html",
+    "title": "Open and Responsible Researcher Reward and Recognition",
+    "section": "",
+    "text": "Long summary"
+  },
+  {
+    "objectID": "projects/dei.html",
+    "href": "projects/dei.html",
+    "title": "Diversity, Equity & Inclusion",
+    "section": "",
+    "text": "Long summary"
   },
   {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 17, 2024\n\n\nDemo Quarto Website\n\n\nLisa DeBruine\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 17, 2024\n\n\nDemo Quarto Website\n\n\nLisa DeBruine\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Training\n      Enabling UK institutions to improve skills in open research practices\n      OER\n    \n  \n  \n    \n      \n    \n    \n      Evaluation\n      Developing effective ways to assess changes among researchers and institutions\n      OER\n    \n  \n  \n    \n      \n    \n    \n      Diversity, Equity & Inclusion\n      Diversity, Equity & Inclusion\n      OER\n    \n  \n  \n    \n      \n    \n    \n      Sharing & Integration\n      Improve how insitutions share and integrate practice\n      OER\n    \n  \n  \n    \n      \n    \n    \n      Management & Sustainability\n      Enables the other projects to deliver their goals\n      OER\n    \n  \n  \n    \n      \n    \n    \n      Open and Responsible Researcher Reward and Recognition\n      To support the institutional implementation of responsible researcher assessment policies and procedures\n      OER\n    \n  \n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Open Research Project Living Website Demo",
     "section": "",
-    "text": "The UK Reproducibility Network (UKRN) is a national peer-led consortium that aims to ensure the UK retains its place as a centre for world-leading research. We do this by investigating the factors that contribute to robust research, promoting training activities, and disseminating best practice. We also work collaboratively with various external stakeholders to ensure coordination of efforts across the sector.\nWe seek to understand the factors that contribute to poor research reproducibility and replicability, and develop approaches to counter these, in order to improve the trustworthiness and quality of research. These issues affect all disciplines, so we aim for broad disciplinary representation. We believe that ongoing efforts to address these issues represent an opportunity to improve our research by reforming culture and practice.\nUKRN is coordinated by a Steering Group and supported by an Advisory Board, with representation across the UK through researcher-led local networks at several institutions, many of which have formally joined UKRN.\n\nRecent News\n\n\n\n\n\n\n\n\n\n\nDemo Quarto Website\n\n\n\n\n\n\n\n\n\n\n\n2024-05-17\n\n\nLisa DeBruine\n\n\n\n\n\n\nNo matching items\n\n\nOlder news…"
+    "text": "The UK Reproducibility Network (UKRN) is a national peer-led consortium that aims to ensure the UK retains its place as a centre for world-leading research. We do this by investigating the factors that contribute to robust research, promoting training activities, and disseminating best practice. We also work collaboratively with various external stakeholders to ensure coordination of efforts across the sector.\nWe seek to understand the factors that contribute to poor research reproducibility and replicability, and develop approaches to counter these, in order to improve the trustworthiness and quality of research. These issues affect all disciplines, so we aim for broad disciplinary representation. We believe that ongoing efforts to address these issues represent an opportunity to improve our research by reforming culture and practice.\nUKRN is coordinated by a Steering Group and supported by an Advisory Board, with representation across the UK through researcher-led local networks at several institutions, many of which have formally joined UKRN."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "The UK Reproducibility Network (UKRN) is a national peer-led consortium that aims to ensure the UK retains its place as a centre for world-leading research. We do this by investigating the factors that contribute to robust research, promoting training activities, and disseminating best practice. We also work collaboratively with various external stakeholders to ensure coordination of efforts across the sector.\nWe seek to understand the factors that contribute to poor research reproducibility and replicability, and develop approaches to counter these, in order to improve the trustworthiness and quality of research. These issues affect all disciplines, so we aim for broad disciplinary representation. We believe that ongoing efforts to address these issues represent an opportunity to improve our research by reforming culture and practice.\nUKRN is coordinated by a Steering Group and supported by an Advisory Board, with representation across the UK through researcher-led local networks at several institutions, many of which have formally joined UKRN."
+  },
+  {
+    "objectID": "news/2024-05-17_quarto.html",
+    "href": "news/2024-05-17_quarto.html",
+    "title": "Demo Quarto Website",
+    "section": "",
+    "text": "Today, Lisa DeBruine created a very simple demo website for the living website project, using quarto."
   }
 ]

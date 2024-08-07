@@ -14,6 +14,18 @@ website:
   navbar:
     logo: /images/logo.png
     logo-alt: "Globe with URN and big pink UK"
+    right:
+      - about.qmd
+      - projects.qmd
+      - text: Projects
+        menu: 
+          - projects/training.qmd
+          - projects/evaluation.qmd
+          - projects/sharing.qmd
+          - projects/management.qmd
+          - projects/recognition.qmd
+          - projects/dei.qmd
+      - news.qmd
   page-footer:
     background: primary
     right:
@@ -28,9 +40,10 @@ website:
         href: https://twitter.com/ukrepro
 format:
   html:
+    css: www/styles.css
     theme: 
-      light: [flatly, light.scss]
-      dark: [darkly, styles.scss]
+      light: [flatly, www/light.scss]
+      dark: [darkly, www/dark.scss]
   
 
 

@@ -1,0 +1,9 @@
+---
+order: 2
+title: "Evaluation"
+#image: /images/evaluation.png
+summary: "Developing effective ways to assess changes among researchers and institutions"
+oer: https://oercommons.org
+---
+
+Long summary

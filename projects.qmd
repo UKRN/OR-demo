@@ -1,0 +1,14 @@
+---
+title: Projects
+listing:
+  template: templates/projects.ejs
+  contents: projects
+  sort: "order"
+  image-placeholder: "images/logo.png"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---

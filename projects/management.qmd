@@ -1,0 +1,9 @@
+---
+order: 4
+title: "Management & Sustainability"
+#image: /images/evaluation.png
+summary: "Enables the other projects to deliver their goals"
+oer: https://oercommons.org
+---
+
+Long summary

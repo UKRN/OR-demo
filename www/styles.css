@@ -1,0 +1,10 @@
+.projlist img {
+  width: 100px;
+  float: left;
+  padding-right: 1em;
+}
+
+.projlist li {
+  clear: both;
+  list-style: none;
+}

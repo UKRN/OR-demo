@@ -1,0 +1,9 @@
+---
+order: 2
+title: "Diversity, Equity & Inclusion"
+#image: /images/dei.png
+summary: "Diversity, Equity & Inclusion"
+oer: https://oercommons.org
+---
+
+Long summary
