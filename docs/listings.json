@@ -10,10 +10,21 @@
     "items": [
       "/projects/training.html",
       "/projects/evaluation.html",
-      "/projects/dei.html",
       "/projects/sharing.html",
       "/projects/management.html",
-      "/projects/recognition.html"
+      "/projects/recognition.html",
+      "/projects/dei.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/training.html",
+      "/projects/evaluation.html",
+      "/projects/sharing.html",
+      "/projects/management.html",
+      "/projects/recognition.html",
+      "/projects/dei.html"
     ]
   }
 ]

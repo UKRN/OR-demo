@@ -16,7 +16,6 @@ website:
     logo-alt: "Globe with URN and big pink UK"
     right:
       - about.qmd
-      - projects.qmd
       - text: Projects
         menu: 
           - projects/training.qmd
@@ -29,6 +28,8 @@ website:
   page-footer:
     background: primary
     right:
+      - text: credit
+        href: credit.html
       - text: "{{< ai osf size=1x >}}"
         aria-label: OSF
         href: https://osf.io/x8j9q/

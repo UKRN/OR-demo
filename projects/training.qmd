@@ -1,9 +1,12 @@
 ---
 order: 1
 title: "Training"
-#image: /images/training.png
+image: /images/training.svg
 summary: "Enabling UK institutions to improve skills in open research practices"
 oer: https://oercommons.org
+format:
+  html:
+    template: project.template
 ---
 
-Long summary
+This project will curate existing training materials from partners plus UKRN short topical animations, briefings, more detailed primers and train-the-trainer workshop materials; identify gaps and effective practice in current provision (Year 1); train consortium trainers, and develop new training material where gaps have been identified (from Year 1); roll out training workshops (both pre-existing and new provision) across consortium members, with iterative development (Year 3-4); publish with permissive licenses the UKRN collection of training material, and disseminate to the sector (ongoing, complete by Year 5).

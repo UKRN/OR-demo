@@ -1,9 +1,12 @@
 ---
-order: 2
+order: 7
 title: "Diversity, Equity & Inclusion"
-#image: /images/dei.png
+image: /images/dei.svg
 summary: "Diversity, Equity & Inclusion"
 oer: https://oercommons.org
+format:
+  html:
+    template: project.template
 ---
 
 Long summary

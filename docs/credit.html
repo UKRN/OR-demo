@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Open Research Project Living Website Demo</title>
+<title>Open Research Project Living Website Demo – credit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,38 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-project-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-language','listing-order','listing-title','listing-image','listing-summary','listing-oer','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
-      
-      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-language","listing-order","listing-title","listing-image","listing-summary","listing-oer","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-project-listing'] = new List('listing-project-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="www/styles.css">
 </head>
@@ -178,80 +145,20 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><img src="images/logo.png" style="float:left; padding: 1em 1em 0 0; width: 7em; min-width: 50px;"></p>
-<p>The <a href="https://ukrn.org">UK Reproducibility Network (UKRN)</a> has launched a five-year programme of work across our consortium of institutional members, supported by our project partners and Research England, to accelerate the uptake of high-quality open research practices, and the many benefits to research quality, integrity and public trust in research that will consequently flow.</p>
-<div id="listing-project-listing" class="quarto-listing quarto-listing-container-custom">
-<ul class="projlist list">
-  <li data-index="0" data-listing-file-modified-sort="1723036074988" data-listing-reading-time-sort="1">
-    <div>
-      <img src="./images/training.svg">
-    </div>
-    <div class="projinfo">
-      <h3 class="anchored"><a href="./projects/training.html">Training</a></h3>
-      <p>Enabling UK institutions to improve skills in open research practices
-    </p></div>
-  </li>
-  <li data-index="1" data-listing-file-modified-sort="1723036068404" data-listing-reading-time-sort="1">
-    <div>
-      <img src="./images/evaluation.svg">
-    </div>
-    <div class="projinfo">
-      <h3 class="anchored"><a href="./projects/evaluation.html">Evaluation</a></h3>
-      <p>Developing effective ways to assess changes among researchers and institutions
-    </p></div>
-  </li>
-  <li data-index="2" data-listing-file-modified-sort="1723036139667" data-listing-reading-time-sort="1">
-    <div>
-      <img src="./images/sharing.svg">
-    </div>
-    <div class="projinfo">
-      <h3 class="anchored"><a href="./projects/sharing.html">Sharing &amp; Integration</a></h3>
-      <p>Improve how insitutions share and integrate practice
-    </p></div>
-  </li>
-  <li data-index="3" data-listing-file-modified-sort="1723036062003" data-listing-reading-time-sort="1">
-    <div>
-      <img src="./images/management.svg">
-    </div>
-    <div class="projinfo">
-      <h3 class="anchored"><a href="./projects/management.html">Management &amp; Sustainability</a></h3>
-      <p>Enables the other projects to deliver their goals
-    </p></div>
-  </li>
-  <li data-index="4" data-listing-file-modified-sort="1723036057739" data-listing-reading-time-sort="1">
-    <div>
-      <img src="./images/recognition.svg">
-    </div>
-    <div class="projinfo">
-      <h3 class="anchored"><a href="./projects/recognition.html">Open and Responsible Researcher Reward and Recognition</a></h3>
-      <p>To support the institutional implementation of responsible researcher assessment policies and procedures
-    </p></div>
-  </li>
-  <li data-index="5" data-listing-file-modified-sort="1723036071451" data-listing-reading-time-sort="1">
-    <div>
-      <img src="./images/dei.svg">
-    </div>
-    <div class="projinfo">
-      <h3 class="anchored"><a href="./projects/dei.html">Diversity, Equity &amp; Inclusion</a></h3>
-      <p>Diversity, Equity &amp; Inclusion
-    </p></div>
-  </li>
-</ul>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<!--
-### Recent News
-
-::: {#news-listing}
-:::
-
-[Older news...](news.html)
--->
+<section id="credit" class="level1">
+<h1>Credit</h1>
+<section id="image-credits" class="level2">
+<h2 class="anchored" data-anchor-id="image-credits">Image Credits</h2>
+<p>Training by MRK from <a href="https://thenounproject.com/browse/icons/term/training/" target="_blank" title="training Icons">Noun Project</a> (CC BY 3.0)</p>
+<p>Evaluation by Relona Creative from <a href="https://thenounproject.com/browse/icons/term/evaluation/" target="_blank" title="evaluation Icons">Noun Project</a> (CC BY 3.0)</p>
+<p>Sharing by adiba from <a href="https://thenounproject.com/browse/icons/term/sharing/" target="_blank" title="Sharing Icons">Noun Project</a> (CC BY 3.0)</p>
+<p>Gear by Agung Pamuji from <a href="https://thenounproject.com/browse/icons/term/gear/" target="_blank" title="Gear Icons">Noun Project</a> (CC BY 3.0)</p>
+<p>Reward by Radhika Studio from <a href="https://thenounproject.com/browse/icons/term/reward/" target="_blank" title="reward Icons">Noun Project</a> (CC BY 3.0)</p>
+<p>Justice by Kosong Tujuh from <a href="https://thenounproject.com/browse/icons/term/justice/" target="_blank" title="Justice Icons">Noun Project</a> (CC BY 3.0)</p>
 
 
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -614,7 +521,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./credit.html">credit</a>
+    <a class="nav-link active" href="./credit.html" aria-current="page">credit</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://osf.io/x8j9q/"><i class="ai  ai-osf ai-1x"></i></a>

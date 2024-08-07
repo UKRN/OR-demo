@@ -1,9 +1,12 @@
 ---
 order: 3
 title: "Sharing & Integration"
-#image: /images/evaluation.png
+image: /images/sharing.svg
 summary: "Improve how insitutions share and integrate practice"
 oer: https://oercommons.org
+format:
+  html:
+    template: project.template
 ---
 
-Long summary
+This project will develop a searchable ‘living’ section of the UKRN website that documents – for each institution, in a common format – details of current open research training, practice and learning (Year 1); add sections, organised by type of open research practice, that include case studies and evaluation outcomes, demonstrating learning and effective practice (Years 2-5); add further sections on recruitment, appraisal, recognition, reward and promotion processes; develop an external engagement plan, and engage with new research organisations (Years 3-5); and develop a long-term business model, to enable UKRN to operate and provide services sustainably (some in partnership) beyond the programme (Years 4-5).

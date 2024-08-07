@@ -1,3 +1,10 @@
+:root {
+  --pink: #D6318A;
+  --green: #52A59D;
+  --lightpurple: #4F5183;
+  --darkpurple: #282A58;
+}
+
 .projlist img {
   width: 100px;
   float: left;
@@ -7,4 +14,8 @@
 .projlist li {
   clear: both;
   list-style: none;
+}
+
+.projheader img {
+  max-height: 200px;
 }
