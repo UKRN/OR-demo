@@ -1,8 +1,30 @@
 [
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/training.html",
+      "/projects/evaluation.html",
+      "/projects/sharing.html",
+      "/projects/management.html",
+      "/projects/recognition.html",
+      "/projects/dei.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/news/2024-05-17_quarto.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/projects/training.html",
+      "/projects/evaluation.html",
+      "/projects/sharing.html",
+      "/projects/management.html",
+      "/projects/recognition.html",
+      "/projects/dei.html"
     ]
   }
 ]

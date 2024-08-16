@@ -1,0 +1,12 @@
+---
+order: 2
+title: "Evaluation"
+image: /images/evaluation.svg
+summary: "Developing effective ways to assess changes among researchers and institutions"
+oer: https://oercommons.org
+format:
+  html:
+    template: project.template
+---
+
+This project will develop, pilot and roll out a survey of open research practices across consortium institutions, and individual- and institution-level reporting tools; collect case studies that capture examples of effective practice across a diverse range of institutions and disciplines (Years 3-5); measure indicators of training uptake and impact (Year 4-5); and share survey results, case studies, tools and frameworks across the consortium and wider sector, and incorporate these results into institutional review processes (Years 4-5).

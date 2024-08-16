@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-project-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-execute','listing-website','listing-format','listing-language','listing-order','listing-title','listing-image','listing-summary','listing-oer','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-execute","listing-website","listing-format","listing-language","listing-order","listing-title","listing-image","listing-summary","listing-oer","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-project-listing'] = new List('listing-project-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -93,6 +153,41 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects/training.html">
+ <span class="dropdown-text">Training</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/evaluation.html">
+ <span class="dropdown-text">Evaluation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/sharing.html">
+ <span class="dropdown-text">Sharing &amp; Integration</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/management.html">
+ <span class="dropdown-text">Management &amp; Sustainability</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/recognition.html">
+ <span class="dropdown-text">Open and Responsible Researcher Reward and Recognition</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/dei.html">
+ <span class="dropdown-text">Diversity, Equity &amp; Inclusion</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
@@ -120,17 +215,106 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="images/logo.png" style="float:left; padding: 1em 1em 0 0; width: 7em; min-width: 50px;"></p>
-<p>The <a href="https://ukrn.org">UK Reproducibility Network (UKRN)</a> is a national peer-led consortium that aims to ensure the UK retains its place as a centre for world-leading research. We do this by investigating the factors that contribute to robust research, promoting training activities, and disseminating best practice. We also work collaboratively with various external stakeholders to ensure coordination of efforts across the sector.</p>
-<p>We seek to understand the factors that contribute to poor research reproducibility and replicability, and develop approaches to counter these, in order to improve the trustworthiness and quality of research. These issues affect all disciplines, so we aim for broad disciplinary representation. We believe that ongoing efforts to address these issues represent an opportunity to improve our research by reforming culture and practice.</p>
-<p>UKRN is coordinated by a Steering Group and supported by an Advisory Board, with representation across the UK through researcher-led local networks at several institutions, many of which have formally joined UKRN.</p>
-<!--
-### Recent News
+<p>The <a href="https://ukrn.org">UK Reproducibility Network (UKRN)</a> has launched a five-year programme of work across our consortium of institutional members, supported by our project partners and Research England, to accelerate the uptake of high-quality open research practices, and the many benefits to research quality, integrity and public trust in research that will consequently flow.</p>
+<div id="listing-project-listing" class="quarto-listing quarto-listing-container-custom">
+<ul class="projlist list">
 
-::: {#news-listing}
-:::
+  <li data-index="0" data-listing-file-modified-sort="1723815228325" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+    <div>
+      
+      <img src="./images/training.svg">
+      
+    </div>
+  
+    <div class="projinfo">
+      <h3 class="anchored"><a href="./projects/training.html">Training</a></h3>
+      
+      <p>Enabling UK institutions to improve skills in open research practices
+      
+    </p></div>
+  </li>
 
-[Older news...](news.html)
--->
+  <li data-index="1" data-listing-file-modified-sort="1723815228324" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+    <div>
+      
+      <img src="./images/evaluation.svg">
+      
+    </div>
+  
+    <div class="projinfo">
+      <h3 class="anchored"><a href="./projects/evaluation.html">Evaluation</a></h3>
+      
+      <p>Developing effective ways to assess changes among researchers and institutions
+      
+    </p></div>
+  </li>
+
+  <li data-index="2" data-listing-file-modified-sort="1723815228325" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+    <div>
+      
+      <img src="./images/sharing.svg">
+      
+    </div>
+  
+    <div class="projinfo">
+      <h3 class="anchored"><a href="./projects/sharing.html">Sharing &amp; Integration</a></h3>
+      
+      <p>Improve how insitutions share and integrate practice
+      
+    </p></div>
+  </li>
+
+  <li data-index="3" data-listing-file-modified-sort="1723815228324" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+    <div>
+      
+      <img src="./images/management.svg">
+      
+    </div>
+  
+    <div class="projinfo">
+      <h3 class="anchored"><a href="./projects/management.html">Management &amp; Sustainability</a></h3>
+      
+      <p>Enables the other projects to deliver their goals
+      
+    </p></div>
+  </li>
+
+  <li data-index="4" data-listing-file-modified-sort="1723815228325" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+    <div>
+      
+      <img src="./images/recognition.svg">
+      
+    </div>
+  
+    <div class="projinfo">
+      <h3 class="anchored"><a href="./projects/recognition.html">Open and Responsible Researcher Reward and Recognition</a></h3>
+      
+      <p>To support the institutional implementation of responsible researcher assessment policies and procedures
+      
+    </p></div>
+  </li>
+
+  <li data-index="5" data-listing-file-modified-sort="1723815228324" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
+    <div>
+      
+      <img src="./images/dei.svg">
+      
+    </div>
+  
+    <div class="projinfo">
+      <h3 class="anchored"><a href="./projects/dei.html">Diversity, Equity &amp; Inclusion</a></h3>
+      
+      <p>Diversity, Equity &amp; Inclusion
+      
+    </p></div>
+  </li>
+
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
 
 
 
@@ -555,6 +739,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./credit.html">
+<p>credit</p>
+</a>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://osf.io/x8j9q/">
 <p><i class="ai  ai-osf ai-1x"></i></p>

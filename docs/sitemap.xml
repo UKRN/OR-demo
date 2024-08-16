@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://UKRN.github.io/OR-demo/news/2024-05-17_quarto.html</loc>
-    <lastmod>2024-05-17T11:37:18.449Z</lastmod>
+    <loc>https://UKRN.github.io/OR-demo/credit.html</loc>
+    <lastmod>2024-08-16T13:33:48.294Z</lastmod>
   </url>
   <url>
-    <loc>https://UKRN.github.io/OR-demo/news.html</loc>
-    <lastmod>2024-05-17T11:30:25.686Z</lastmod>
+    <loc>https://UKRN.github.io/OR-demo/about.html</loc>
+    <lastmod>2024-08-16T13:33:48.293Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects.html</loc>
+    <lastmod>2024-08-16T13:33:48.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/dei.html</loc>
+    <lastmod>2024-08-16T13:33:48.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/sharing.html</loc>
+    <lastmod>2024-08-16T13:33:48.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/evaluation.html</loc>
+    <lastmod>2024-08-16T13:33:48.324Z</lastmod>
   </url>
   <url>
     <loc>https://UKRN.github.io/OR-demo/demo.html</loc>
     <lastmod>2024-08-16T13:28:58.263Z</lastmod>
   </url>
   <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/management.html</loc>
+    <lastmod>2024-08-16T13:33:48.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/training.html</loc>
+    <lastmod>2024-08-16T13:33:48.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/projects/recognition.html</loc>
+    <lastmod>2024-08-16T13:33:48.325Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/news.html</loc>
+    <lastmod>2024-05-17T11:30:25.686Z</lastmod>
+  </url>
+  <url>
     <loc>https://UKRN.github.io/OR-demo/index.html</loc>
-    <lastmod>2024-08-16T13:25:08.925Z</lastmod>
+    <lastmod>2024-08-16T13:36:13.791Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UKRN.github.io/OR-demo/news/2024-05-17_quarto.html</loc>
+    <lastmod>2024-05-17T11:37:18.449Z</lastmod>
   </url>
 </urlset>

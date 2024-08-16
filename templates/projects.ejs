@@ -1,0 +1,22 @@
+```{=html}
+<ul class="projlist list">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <div>
+      <% if (item.image) { %>
+      <img src="<%- item.image %>">
+      <% } else { %>
+      <img src="../../images/logo.png">
+      <% } %>
+    </div>
+  
+    <div class="projinfo">
+      <h3><a href="<%= item.path %>"><%= item.title %></a></h3>
+      
+      <p><%= item.summary %>
+      
+    </div>
+  </li>
+<% } %>
+</ul>
+```

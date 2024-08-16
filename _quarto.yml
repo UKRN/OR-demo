@@ -14,9 +14,18 @@ website:
   navbar:
     logo: /images/logo.png
     logo-alt: "Globe with UKRN and big pink UK"
-    right: 
-    - news.qmd
-    - demo.qmd
+    right:
+      - about.qmd
+      - text: Projects
+        menu: 
+          - projects/training.qmd
+          - projects/evaluation.qmd
+          - projects/sharing.qmd
+          - projects/management.qmd
+          - projects/recognition.qmd
+          - projects/dei.qmd
+      - news.qmd
+      - demo.qmd
   sidebar:
     - title: "Style Guide"
       alignment: right
@@ -26,6 +35,8 @@ website:
   page-footer:
     background: primary
     right:
+      - text: credit
+        href: credit.html
       - text: "{{< ai osf size=1x >}}"
         aria-label: OSF
         href: https://osf.io/x8j9q/
@@ -39,6 +50,3 @@ format:
   html:
     theme: [simplex, www/style.scss]
     mainfont: Roboto
-  
-
-

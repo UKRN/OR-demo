@@ -1,0 +1,12 @@
+---
+order: 5
+title: "Open and Responsible Researcher Reward and Recognition "
+image: /images/recognition.svg
+summary: "To support the institutional implementation of responsible researcher assessment policies and procedures"
+oer: https://oercommons.org
+format:
+  html:
+    template: project.template
+---
+
+This project will reform the ways in which institutions recruit, promote and appraise their staff, to better reward open research practices.

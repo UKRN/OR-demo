@@ -1,0 +1,12 @@
+---
+order: 4
+title: "Management & Sustainability"
+image: /images/management.svg
+summary: "Enables the other projects to deliver their goals"
+oer: https://oercommons.org
+format:
+  html:
+    template: project.template
+---
+
+This project provides leadership, adequate resources, communications and other relevant support to the project.

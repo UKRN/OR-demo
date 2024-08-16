@@ -52,3 +52,19 @@ div.callout.feature div.callout-header {
 div.callout.callout-titled.feature .callout-icon::before {
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="stroke: %23D6318A; fill: %23D6318A; stroke-width: 1px;" class="bi" viewBox="0 0 16 16"><polygon points="8.33,0 3.33,15 15.83,5.5 0,5.5 13.33,15" /></svg>')
 }
+
+
+.projlist img {
+  width: 100px;
+  float: left;
+  padding-right: 1em;
+}
+
+.projlist li {
+  clear: both;
+  list-style: none;
+}
+
+.projheader img {
+  max-height: 200px;
+}
