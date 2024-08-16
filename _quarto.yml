@@ -13,7 +13,16 @@ website:
   favicon: images/favicon.ico
   navbar:
     logo: /images/logo.png
-    logo-alt: "Globe with URN and big pink UK"
+    logo-alt: "Globe with UKRN and big pink UK"
+    right: 
+    - news.qmd
+    - demo.qmd
+  sidebar:
+    - title: "Style Guide"
+      alignment: right
+      contents:
+        - text: UKRN
+          href: ukrn.org
   page-footer:
     background: primary
     right:
@@ -28,9 +37,8 @@ website:
         href: https://twitter.com/ukrepro
 format:
   html:
-    theme: 
-      light: [flatly, light.scss]
-      dark: [darkly, styles.scss]
+    theme: [simplex, www/style.scss]
+    mainfont: Roboto
   
 
 

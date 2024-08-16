@@ -1,0 +1,89 @@
+---
+title: Style Guide
+---
+
+# Header 1
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+##### Header 5
+
+###### Header 6
+
+## Text and links
+
+Some text in a paragraph before a list of links:
+
+- [UKRN home page](https://ukrn.org)
+- [quarto html guide](https://quarto.org/docs/output-formats/html-basics.html)
+- [quarto website navigation](https://quarto.org/docs/websites/website-navigation.html)
+
+## Callout Blocks
+
+### Custom UKRN
+
+The generic and feature callouts are custom-made for the UKRN style.
+
+::: {.callout}
+This is a generic callout without a title
+
+`::: {.callout}`
+:::
+
+::: {.callout}
+## Callout Box 
+
+This is a generic callout with a title
+:::
+
+::: {.callout-note .feature collapse="false"}
+## Feature Box 
+
+This is a featured callout with collapsible content
+
+`::: {.callout-note .feature collapse="false"}`
+:::
+
+### Quarto Callouts
+
+The following callout boxes are default quarto types, and their appearance is controlled by the theme.
+
+::: {.callout-note}
+This is a note `::: {.callout-note}`
+:::
+
+::: {.callout-warning}
+This is a warning `::: {.callout-warning}`
+:::
+
+::: {.callout-important}
+This is important `::: {.callout-important}`
+:::
+
+::: {.callout-tip}
+This is a tip `::: {.callout-tip}`
+:::
+
+::: {.callout-caution}
+This is a caution `::: {.callout-caution}`
+:::
+
+::: {.callout-note collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' note callout that can be expanded by the user.
+
+`::: {.callout-note collapse="true"}`
+:::
+
+::: {.callout-note collapse="false"}
+## Expanded Collapse
+
+You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+
+`::: {.callout-note collapse="false"}`
+:::
