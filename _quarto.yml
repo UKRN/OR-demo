@@ -6,7 +6,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Open Research Project Living Website Demo"
+  title: UKRN Open Research Project
   site-url: https://UKRN.github.io/OR-demo
   repo-url: https://github.com/UKRN/OR-demo
   image: images/logo.png
@@ -14,6 +14,8 @@ website:
   navbar:
     logo: /images/logo.png
     logo-alt: "Globe with UKRN and big pink UK"
+    pinned: false
+    toggle-position: right
     right:
       - about.qmd
       - text: Projects
@@ -27,13 +29,20 @@ website:
       - news.qmd
       - demo.qmd
   sidebar:
-    - title: "Style Guide"
-      alignment: right
-      contents:
-        - text: UKRN
-          href: ukrn.org
+    style: "docked"
+    search: true
+    title: Site/Section Contents
+    contents:
+      - text: "About"
+        href: about.qmd
+      - section: "Projects"
+        href: projects.qmd
+        contents: projects/*
+      - news.qmd
+      - demo.qmd
   page-footer:
     background: primary
+    left: "![](images/cc-by.svg) ©2024 University of Bristol "
     right:
       - text: credit
         href: credit.html

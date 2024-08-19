@@ -25,6 +25,14 @@ $link-color: $green; // hyperlinks
 
 /*-- scss:rules --*/
 
+.navbar-logo {
+  max-height: 3em;
+}
+
+.nav-footer-left img {
+  max-height: 2em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $headerfont;
   color: $darkpurple;

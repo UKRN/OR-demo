@@ -1,10 +1,56 @@
 ---
 title: Style Guide
+website:
+  reader-mode: true
+format:
+  html:
+    toc: true
+    toc-depth: 6
+    toc-expand: 3
+    toc-title: Page Contents
+    other-links:
+      - text: UKRN Github
+        href: https://github.com/ukrn/
+        target: _blank # opens in a new tab
+        icon: github # https://icons.getbootstrap.com/
 ---
 
-# Header 1
+## Useful resources
 
-## Header 2
+- [markdown basics](https://quarto.org/docs/authoring/markdown-basics.html){target="_blank"}
+  - [images](https://quarto.org/docs/authoring/figures.html){target="_blank"}
+  - [tables](https://quarto.org/docs/authoring/tables.html){target="_blank"}
+- [quarto html basics](https://quarto.org/docs/output-formats/html-basics.html){target="_blank"}
+- [quarto websites](https://quarto.org/docs/websites/){target="_blank"}
+
+## Table of Contents
+
+Add the following to the YAML header of a page to display the table of contents for that page on the right. The `other-links` setting can be used to include extra links in the ToC. You can omit the target and icon, or change the icon to one from the [bootstrap icons](https://icons.getbootstrap.com/) list.
+
+```
+---
+title: {Page Title}
+format:
+  html:
+    toc: true
+    toc-depth: 6
+    toc-expand: 3
+    toc-title: Page Contents
+    other-links:
+      - text: UKRN Github
+        href: https://github.com/ukrn/
+        target: _blank # opens in a new tab
+        icon: github
+---
+```
+
+See the [quarto documentation](https://quarto.org/docs/output-formats/html-basics.html#table-of-contents_) for extended help.
+
+## Headers
+
+The title of this page (Style Guide) is in the level-1 header style, and the header above is level-2. You usually want to start with level-2 headers on a page, since the title is level 1. 
+
+Prefix a header with the appropriate number of hashes (e.g., `## Headers`) to make it a header. Leave a blank line before and after headers.
 
 ### Header 3
 
@@ -20,7 +66,25 @@ Some text in a paragraph before a list of links:
 
 - [UKRN home page](https://ukrn.org)
 - [quarto html guide](https://quarto.org/docs/output-formats/html-basics.html)
-- [quarto website navigation](https://quarto.org/docs/websites/website-navigation.html)
+- [quarto website navigation](https://quarto.org/docs/websites/website-navigation.html){target="_blank"} (opens in a new tab)
+
+
+## Tabsets
+
+::: {.panel-tabset}
+## Tab A
+
+Content in tab A.
+
+## Tab B
+
+Content in tab B.
+
+## Tab C
+
+Content in tab C.
+
+:::
 
 ## Callout Blocks
 
@@ -30,9 +94,13 @@ The generic and feature callouts are custom-made for the UKRN style.
 
 ::: {.callout}
 This is a generic callout without a title
-
-`::: {.callout}`
 :::
+
+```
+::: {.callout}
+This is a generic callout without a title
+:::
+```
 
 ::: {.callout}
 ## Callout Box 
@@ -40,13 +108,27 @@ This is a generic callout without a title
 This is a generic callout with a title
 :::
 
+```
+::: {.callout}
+## Callout Box 
+
+This is a generic callout with a title
+:::
+```
+
 ::: {.callout-note .feature collapse="false"}
 ## Feature Box 
 
 This is a featured callout with collapsible content
-
-`::: {.callout-note .feature collapse="false"}`
 :::
+
+```
+::: {.callout-note .feature collapse="false"}
+## Feature Box 
+
+This is a featured callout with collapsible content
+:::
+```
 
 ### Quarto Callouts
 
